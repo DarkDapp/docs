@@ -1,6 +1,5 @@
 module.exports = {
     title: 'DarkDapp Docs',
-    tagline: 'DarkDapp Framework Documentation',
     url: 'https://docs.darkdapp.com',
     baseUrl: '/',
     presets: [
@@ -10,6 +9,7 @@ module.exports = {
                 docs: {
                     routeBasePath: '/',
                 },
+                blog: false,
             },
         ],
     ],
