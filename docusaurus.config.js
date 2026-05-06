@@ -2,6 +2,8 @@ module.exports = {
     title: 'DarkDapp Docs',
     url: 'https://docs.darkdapp.com',
     baseUrl: '/',
+    onBrokenLinks: 'warn',
+    onBrokenMarkdownLinks: 'warn',
     presets: [
         [
             'classic',
@@ -13,5 +15,4 @@ module.exports = {
             },
         ],
     ],
-    onBrokenLinks: 'warn',
 };
